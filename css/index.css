@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+/* font-family: 'Secular One', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/* font-family: 'Lobster', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+*{
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: #252525;
+}
+
+.kotak1{
+  background-image: url(../img/bg.png);
+  background-size: cover;
+  height: 100vh;
+}
+
+header{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img{
+  height: 70px;
+  width: 70px;
+}
+
+.logo div{
+  margin-left: 5px;
+}
+
+.logo div p{
+  font-family: 'Secular One', sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.list{
+  display: flex;
+}
+
+.list li{
+  display: flex;
+}
+
+.list li a{
+  font-family: 'Secular One', sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  margin-left: 35px;
+  transition: 0.5s;
+}
+
+.list li a:hover{
+  color: #00ffff;
+  transform: scale(1.05);
+}
+
+.welcome{
+  margin-top: 35vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome div{
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.welcome div:hover{
+  transform: scale(1.03);
+}
+
+.welcome div h1{
+  font-family: 'Lobster', cursive;
+  font-size: 65px;
+  
+}
+
+.welcome div p{
+  font-family: 'Lobster', cursive;
+  font-size: 25px;
+}
+
+#kotak2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.kotak2dalam{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/kotak1.png);
+  background-size: cover;
+  height: 55vh;
+  width: 100%;
+}
+
+.kotak2dalam div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+.kotak2dalam div h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.kotak2dalam div p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  color: #ffffff;
+}
+
+#kotak3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.kotak3judul{
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.kotak3dalam{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.kartu1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 55vh;
+  transition: 0.5s;
+}
+
+.kartu1:hover{
+  transform: scale(1.05);
+}
+
+.kartu1 div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.kartu2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 55vh;
+  transition: 0.5s;
+}
+
+.kartu2:hover{
+  transform: scale(1.05);
+}
+
+.kartu2 div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.kartu3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 55vh;
+  transition: 0.5s;
+}
+
+.kartu3:hover{
+  transform: scale(1.05);
+}
+
+.kartu3 div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ion-icon{
+  color: #ffffff;
+  height: 70px;
+  width: 70px;
+}
+
+.kartujudul{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.kartutulisan{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#kotak4{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+#kotak4 .judul{
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.kotak4dalam{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.visi{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #151515;
+  height: 80vh;
+  width: 65vh;
+  transition: 0.5s;
+}
+
+.visi:hover{
+  transform: scale(1.05);
+}
+
+.visi div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 35px;
+}
+
+.visi h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.visi p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 15px;
+}
+
+.misi{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #151515;
+  height: 80vh;
+  width: 65vh;
+  transition: 0.5s;
+}
+
+.misi:hover{
+  transform: scale(1.05);
+}
+
+.misi div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 35px;
+}
+
+.misi h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.misi p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 15px;
+}
+
+#kotak5{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+#kotak5 h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.fasilitas{
+  background-color: #151515;
+  padding: 30px;
+  margin-top: 50px;
+}
+
+.fasilitasjudul{
+  text-align: center;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.fasilitasdalam{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.fasilitasimg{
+  height: 290px;
+}
+
+.fasilitasdalam2{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.fasilitastulisan{
+  text-align: center;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+#kotak6{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#kotak6 h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.maps{
+  height: 80vh;
+  width: 100%;
+  margin-top: 50px;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #151515;
+  padding: 35px;
+}
+
+footer div{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footerisi1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerisi1 h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.footerisi1 ion-icon{
+  height: 30px;
+  width: 30px;
+}
+
+.footerisi1dalam{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.footerisi2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerisi2 h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.footerisi2dalam{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 300px;
+  padding: 10px;
+}
+
+.footerisi2 ion-icon{
+  height: 50px;
+  width: 50px;
+  transition: 0.5s;
+}
+
+.footerisi2 ion-icon:hover{
+  color: #00ffff;
+  transform: scale(1.10);
+}
+
+.copyright{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: #ffffff;
+  margin-top: 30px;
+}
